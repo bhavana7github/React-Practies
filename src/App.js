@@ -12,6 +12,7 @@ import EventBinding from './component/EventBinding'
 import UserGreeting from './component/UserGreeting';
 import Inline from './component/Inline';
 import Stylesheet from './component/Stylesheet';
+import Form from './component/Form';
 
 // import '../node_modules/bootstrap/dist/scc/bootstrap.css'
 function App() {
@@ -29,7 +30,7 @@ function App() {
         <Route exact path='/home' element={< Home />}></Route>
         <Route exact path='/about' element={< About />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route>
-
+        <Route exact path='/form' element={< Form />}></Route>
         </Routes>
 <DataBinding/>
 <EventBinding/>

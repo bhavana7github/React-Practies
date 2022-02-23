@@ -14,7 +14,11 @@ class Nav extends Component{
                 <li>
                 <Link to="/contact">Contact</Link>
                 </li>
-            </div>
+                <li>
+<Link to="/form">Form</Link>
+</li>
+
+                 </div>
         )
     }
 

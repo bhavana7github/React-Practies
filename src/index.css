@@ -13,5 +13,15 @@ code {
 }
 .size{
   width:100px ;
-margin-left: 980px;
+margin-left: 1100px;
+}
+.pt-5{
+  text-align: left;
+}.card-title{
+  color:blue
+}.card-header.pt-3{
+  background-color:aqua;
+}
+.card-footer.px-4{
+  background-color:aqua;
 }
